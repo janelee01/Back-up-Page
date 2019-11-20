@@ -7,8 +7,8 @@ DNS is managed by cloudflare, so login there and go to the DNS page to make the 
 
 ## Site Down Steps
 1. Update the `www` CNAME target to `developmental-damselfly-b27748byfaumgi0soylfmzfl.herokudns.com`
-2. Add CNAME `@` with target `thermal-sawfish-q5owfe95j1ojbky8wubrijgl.herokudns.com`
-3. Delete the A record for `loandsons.com`
+2. Delete the A record for `loandsons.com`
+3. Add CNAME `@` with target `thermal-sawfish-q5owfe95j1ojbky8wubrijgl.herokudns.com`
 
 ## Site Up Steps
 1. Update the `www` CNAME target to `shops.myshopify.com`
