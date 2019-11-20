@@ -7,12 +7,12 @@ DNS is managed by cloudflare, so login there and go to the DNS page to make the 
 
 ## Site Down Steps
 1. Update the `www` CNAME target to `developmental-damselfly-b27748byfaumgi0soylfmzfl.herokudns.com`
-2. Rename the `brb` CNAME to `@`
+2. Add CNAME `@` with target `thermal-sawfish-q5owfe95j1ojbky8wubrijgl.herokudns.com`
 3. Delete the A record for `loandsons.com`
 
 ## Site Up Steps
 1. Update the `www` CNAME target to `shops.myshopify.com`
-2. Rename the `@` CNAME record to `brb`
+2. Delete the `@` CNAME
 3. Add an A record for `loandsons.com` pointing to `23.227.38.32`
 
 ## CNAME Flattening
