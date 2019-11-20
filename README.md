@@ -11,8 +11,8 @@ DNS is managed by cloudflare, so login there and go to the DNS page to make the 
 3. Add CNAME `@` with target `thermal-sawfish-q5owfe95j1ojbky8wubrijgl.herokudns.com`
 
 ## Site Up Steps
-1. Update the `www` CNAME target to `shops.myshopify.com`
-2. Delete the `@` CNAME
+1. Update the `www` CNAME record target to `shops.myshopify.com`
+2. Delete the `loandsons` CNAME record
 3. Add an A record for `loandsons.com` pointing to `23.227.38.32`
 
 ## CNAME Flattening
